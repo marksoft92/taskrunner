@@ -1,0 +1,403 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    line-height: 1;
+    max-width: 1080px;
+    margin: 0 auto 0 auto;
+
+
+
+
+}
+
+.container {
+    max-width: 1120px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+header {
+    background-image: url(https://i.postimg.cc/0jGVKwjm/still-life-851328-1280.jpg);
+    height: 70vh;
+
+}
+
+nav {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+
+
+    margin-right: 130px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+li {
+
+    display: block;
+    padding: 10px;
+
+    margin: 20px 10px;
+
+}
+
+a {
+    color: white;
+    transition: 1px;
+
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.main {
+    color: white;
+    text-align: center;
+    margin-top: 20vh;
+
+    position: relative;
+
+}
+
+.main h1 {
+    font-size: 30px;
+
+    font-family: 'Hepta Slab', serif;
+
+    font-style: italic;
+}
+
+h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Lexend Zetta', sans-serif;
+    letter-spacing: -8px;
+}
+
+a.button {
+    padding: 15px 30px;
+    background-color: rgba(255, 208, 0, 1);
+    border-radius: 2px;
+    position: absolute;
+    font-weight: 800;
+    transform: translate(-50%, 50%);
+    transition: 1s;
+    border: 2px solid gold;
+
+}
+
+.button:hover {
+    color: gold;
+    background-color: white;
+
+}
+
+
+/*services*/
+section.Services {
+    background-color: white;
+}
+
+section h1.title-services,
+.card-body h5 {
+
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+
+    font-family: 'Anton', sans-serif;
+    font-style: bold;
+    text-transform: uppercase;
+    margin: 30px 0 5px 0;
+}
+
+h5.title-services2,
+.card-body p {
+    color: rgb(148, 145, 145);
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+
+}
+
+.card-services .card-image {
+    width: 50px;
+    height: 60px;
+    width: 60px;
+    border: 3px solid gold;
+    border-radius: 50%;
+    position: relative;
+    margin: auto auto;
+}
+
+.card-image i {
+    color: gold;
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.card-body h5 {
+    font-size: 12px;
+    margin: 25px 0 15px 0;
+}
+
+.card-body p {
+    font-size: 10px;
+}
+
+/*porfolio*/
+
+section.portfolio {
+    background-color: rgb(247, 247, 247);
+}
+
+section.portfolio .container {
+    width: 80vw;
+}
+
+div.card {
+    background-color: white;
+
+}
+
+.row div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.card-portfolio {
+    width: 200px;
+}
+
+img {
+    background-size: cover;
+    transition-duration: 3s;
+}
+
+.card-image {
+    overflow: hidden;
+    height: 35vh;
+    cursor: pointer;
+
+}
+
+img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+
+
+/*footer*/
+footer {
+    position: relative;
+}
+
+footer li.fab {
+    width: 50px;
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+}
+
+li a i {
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+footer p {
+    bottom: 100%;
+    transform: translateY(100%);
+    margin-right: 30px;
+    color: black;
+    position: absolute;
+}
+
+ol {
+    float: right;
+    margin-right: 20%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    div.card-portfolio {
+        width: 60vw;
+        margin: auto auto;
+    }
+
+    .row div {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 649px) {
+
+    ul {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    header nav ul li a {
+        text-shadow: 1px 1px 1px gold;
+    }
+
+    .main {
+        visibility: hidden;
+    }
+
+    footer ol li {
+        flex-direction: flex;
+        display: inline;
+    }
+
+
+}
+
+@media only screen and (max-width: 367px) {
+    ol {
+        float: right;
+        margin: auto 46px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    ol {
+        float: right;
+        margin: auto 26px;
+    }
+
+    nav ul li {
+        margin: 0;
+        margin-top: 15px;
+    }
+}
